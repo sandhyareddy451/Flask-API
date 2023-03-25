@@ -10,9 +10,11 @@ def home():
 def student():
     return "returning student details"
 
-@app.route('/staff')
-def staff():
-    return "returning staff details"
+#concatinating of two string
+@app.route('/staff/<string>')
+def staff(string):
+    return "returning staff details of " + string
+
 @app.route('/user/<name>')
 def user(name):
     if name=="home":

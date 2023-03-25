@@ -11,3 +11,11 @@ pip install Flask
 python app.py
 
 ---
+
+## To conacate 2 strings
+
+---
+Pass the string parameter into function. Example: def function(string parameter)
+
+---
+
