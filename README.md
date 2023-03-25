@@ -6,4 +6,8 @@
 pip install Flask
 
 ---
+## To run python app.py file 
+---
+python app.py
 
+---
